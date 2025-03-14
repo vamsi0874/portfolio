@@ -62,7 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="text-lg">Innovative Software Developer: Python, JavaScript, MERN, Next.js, NestJS. Builds real-time apps, AI chatbots, dashboards. Skilled in responsive UIs, secure authentication, scalable backends (MongoDB, PostgreSQL, REST APIs). Passionate about tech, performance, user experience.</span>
+       <span className="text-lg">
+  Hello, I'm Vamsi, a full-stack developer specializing in Python, JavaScript, and MERN/Next.js/NestJS. 
+  I build real-time applications, AI chatbots, and dashboards, focusing on responsive UIs and secure authentication. 
+  
+</span>
       </motion.p>
 
       <motion.div
