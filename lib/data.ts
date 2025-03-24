@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cryptoImg from "@/public/crypto.png";
 import chatImg from "@/public/chat.png";
 import cgptImg from "@/public/cgpt.png";
+import invoicesImg from "@/public/invoices.png";
 
 export const links = [
   {
@@ -51,14 +51,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Jan - June 2023",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+
 ] as const;
 
 export const projectsData = [
@@ -86,6 +79,13 @@ export const projectsData = [
     imageUrl: chatImg,
     Url: "https://chatapp-x5od.onrender.com",
   },
+  {
+    title: "Invoice App",
+    description: "A modern invoice application empowering businesses to easily generate invoices and seamlessly process customer payments. Built with React, Next.js, and TypeScript, leveraging Xata for data management and Clerk for secure user authentication.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Clerk","Stripe", "Xata"],
+    imageUrl: invoicesImg,
+    Url: "https://invoice-app-gamma-puce.vercel.app",
+  }
 ] as const;
 
 export const skillsData = [
