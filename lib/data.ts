@@ -5,6 +5,7 @@ import cryptoImg from "@/public/crypto.png";
 import chatImg from "@/public/chat.png";
 import cgptImg from "@/public/cgpt.png";
 import invoicesImg from "@/public/invoices.png";
+import xcloneImg from "@/public/xclone.jpg";
 
 export const links = [
   {
@@ -70,6 +71,14 @@ export const projectsData = [
     tags: ["React","Next.js", "TypeScript" ,"Tailwind", "Django", "sqlite3"],
     imageUrl: cryptoImg,
     Url: "https://crypto-rouge-three.vercel.app",
+  },
+  {
+    title: "X clone",
+    description:
+      "Developed a full-stack social media application with real-time notifications using Socket.IO and Clerk for authentication. Implemented infinite scrolling with efficient data fetching via TanStack Query and cursor-based pagination. Utilized Zod for form validation and integrated Prisma ORM with PostgreSQL for scalable database management. Employed Next.js Server Actions to ensure secure backend logic and seamless client-server communication.",
+    tags: ["Nextjs", "Tailwind", "Socket.io","postgresql"],
+    imageUrl: xcloneImg,
+    Url: "https://x-clone-03r6.onrender.com",
   },
   {
     title: "Chat app",
