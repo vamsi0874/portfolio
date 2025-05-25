@@ -9,7 +9,7 @@ export default function Footer() {
   <p className="text-xs">
     Feel free to contact me anytime: 
     <a href="https://www.linkedin.com/in/vamsi-m-5a7a5a256/" className="mx-1 underline" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
-    <a href="https://github.com/vamsi0874e" className="mx-1 underline" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+    <a href="https://github.com/vamsi0874" className="mx-1 underline" target="_blank" rel="noopener noreferrer">GitHub</a> | 
     <a href="mailto:vamsim0874@gmail.com" className="mx-1 underline" target="_blank" rel="noopener noreferrer">Email</a>
   </p>
   <p className="text-xs mt-2">
