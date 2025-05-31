@@ -4,8 +4,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import cryptoImg from "@/public/crypto.png";
 import chatImg from "@/public/chat.png";
 import cgptImg from "@/public/cgpt.png";
-import invoicesImg from "@/public/invoices.png";
+// import invoicesImg from "@/public/invoices.png";
 import xcloneImg from "@/public/xclone.jpg";
+import githubImg from "@/public/github.png";
 
 export const links = [
   {
@@ -83,16 +84,23 @@ export const projectsData = [
   {
     title: "Chat app",
     description:
-      "I developed a real-time chat application utilizing Socket.io to enable instant messaging with seamless user interactions. The application features a responsive and dynamic user interface built with React.js, ensuring a smooth user experience across devices. For secure authentication and authorization, I implemented JWT authentication, safeguarding user sessions. Additionally, I integrated MongoDB to efficiently store and manage chat messages and user data, ensuring scalability and reliability.",
-    tags: ["React", "Tailwind", "Socket.io","express","Mongodb"],
+      "Our SaaS platform fetches your GitHub repository files and instantly summarizes them using AI. Dive deep into complex codebases, onboard faster, and save hours of manual reading.",
+    tags: ["Nextjs", "Tailwind", "langchain","trpc","posgresql"],
     imageUrl: chatImg,
-    Url: "https://chatapp-x5od.onrender.com",
+    Url: "https://saas-55ui.vercel.app",
   },
+  // {
+  //   title: "Invoice App",
+  //   description: "A modern invoice application empowering businesses to easily generate invoices and seamlessly process customer payments. Built with React, Next.js, and TypeScript, leveraging Xata for data management and Clerk for secure user authentication.",
+  //   tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Clerk","Stripe", "Xata"],
+  //   imageUrl: invoicesImg,
+  //   Url: "https://invoice-app-gamma-puce.vercel.app",
+  // },
   {
-    title: "Invoice App",
+    title: "Github Saas",
     description: "A modern invoice application empowering businesses to easily generate invoices and seamlessly process customer payments. Built with React, Next.js, and TypeScript, leveraging Xata for data management and Clerk for secure user authentication.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Clerk","Stripe", "Xata"],
-    imageUrl: invoicesImg,
+    imageUrl: githubImg,
     Url: "https://invoice-app-gamma-puce.vercel.app",
   }
 ] as const;

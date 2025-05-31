@@ -92,7 +92,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           // href="./Vamsi_resume.pdf"
-          href="https://drive.google.com/file/d/1SSFSMMhF6vr3YdhT3jarj6WYzi-9mdcm/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bvCu_HZwTozVvi4tf4HyxB0rR1EX5tYq/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
