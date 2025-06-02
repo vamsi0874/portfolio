@@ -101,7 +101,7 @@ export const projectsData = [
     description: "A modern invoice application empowering businesses to easily generate invoices and seamlessly process customer payments. Built with React, Next.js, and TypeScript, leveraging Xata for data management and Clerk for secure user authentication.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Clerk","Stripe", "Xata"],
     imageUrl: githubImg,
-    Url: "https://invoice-app-gamma-puce.vercel.app",
+    Url: "https://saas-55ui.vercel.app/",
   }
 ] as const;
 
