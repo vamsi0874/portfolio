@@ -84,7 +84,7 @@ export const projectsData = [
   {
     title: "Chat app",
     description:
-      "Developed a real-time chat application using Next.js and Tailwind CSS, featuring user authentication with Clerk and secure data management with PostgreSQL. The app supports real-time messaging, file uploads, and AI-powered chat summaries using LangChain. It also includes a responsive design for seamless user experience across devices.",
+      "Developed a real-time chat application using Next.js and Tailwind CSS, featuring user authentication with Clerk and secure data management with PostgreSQL. The app supports real-time messaging, file uploads, It also includes a responsive design for seamless user experience across devices.",
     tags: ["Nextjs", "Tailwind", "socket.io","posgresql","express","clerk"],
     imageUrl: chatImg,
     Url: "https://chatapp-x5od.onrender.com",
@@ -98,7 +98,7 @@ export const projectsData = [
   // },
   {
     title: "Github Saas",
-    description: "Our SaaS platform fetches your GitHub repository files and instantly summarizes them using AI. Dive deep into complex codebases, onboard faster, and save hours of manual reading.",
+    description: "Our SaaS platform fetches your GitHub repository files and instantly summarizes them using AI. Dive deep into complex codebases, onboard faster, and save hours of manual reading with our AI-powered insights. Perfect for developers and teams looking to enhance productivity and understanding of their projects.",
     tags: ["Nextjs", "Tailwind", "langchain","trpc","posgresql","stripe"],
     imageUrl: githubImg,
     Url: "https://saas-55ui.vercel.app/",
