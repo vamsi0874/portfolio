@@ -7,6 +7,7 @@ import cgptImg from "@/public/cgpt.png";
 // import invoicesImg from "@/public/invoices.png";
 import xcloneImg from "@/public/xclone.jpg";
 import githubImg from "@/public/github.png";
+import feedbackImg from "@/public/feedback.png";
 
 export const links = [
   {
@@ -99,10 +100,18 @@ export const projectsData = [
   {
     title: "Github Saas",
     description: "Our SaaS platform fetches your GitHub repository files and instantly summarizes them using AI. Dive deep into complex codebases, onboard faster, and save hours of manual reading with our AI-powered insights. Perfect for developers and teams looking to enhance productivity and understanding of their projects.",
-    tags: ["Nextjs", "Tailwind", "langchain","trpc","posgresql","stripe"],
+      tags: ["Nextjs", "Tailwind", "langchain","trpc","posgresql","stripe"],
     imageUrl: githubImg,
     Url: "https://saas-55ui.vercel.app/",
-  }
+  },
+  {
+    title: "Manager Employee feedback system",
+    description: "A comprehensive employee feedback system designed to streamline performance evaluations and enhance team communication. Built with React and Tailwind CSS, this application allows managers to easily create, manage, and review employee feedback forms,the employee can acknowledge and comment on the feedback, and the manager can track and respond to feedback. The system also includes a robust user authentication feature, ensuring secure access control and data protection the backend is powered by Django Rest Framework and SQLite3, providing a reliable and scalable solution for managing employee feedback.",
+     tags: ["Reactjs", "Tailwind","django rest framework","sqlite3"],
+    imageUrl: feedbackImg,
+ 
+    Url: "https://feedback-nu-three.vercel.app/login",
+  },
 ] as const;
 
 export const skillsData = [
